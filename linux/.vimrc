@@ -152,10 +152,8 @@ augroup END
 
 :map <leader><space> @a
 " Set color scheme
-" colorscheme lucius
 colorscheme atom-dark-256
 
-LuciusBlackHighContrast
 
 " Syntastic settings
 " let g:syntastic_json_checkers = ['jsonlint']
