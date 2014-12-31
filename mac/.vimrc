@@ -133,6 +133,9 @@ set fillchars=stl:-,stlnc:-,vert:│
 map <leader>n :NERDTreeToggle<CR>
 map <leader>m :NERDTreeMirror<CR>
 
+" Make NERDTree verticle split to the right
+set splitright splitbelow
+
 " Set up folding
 augroup vimrc
   au BufReadPre * setlocal foldmethod=indent
