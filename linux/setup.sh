@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install git awesome
+sudo apt-get install git awesome terminator
 
 sudo cp -r /etc/xdg/awesome ~/.config
 
