@@ -4,14 +4,14 @@ sudo apt-get install git awesome terminator
 
 sudo cp -rv awesome/ ~/.config
 
-#adding emial in variables to keep any scraping from grabbing this
-X="chris."
-Y="david."
-Z="gibson"
-DOM="@gmail.com"
+echo -n "Enter email for ssh key generation and git configuration: "
+read email
 
-git config --global user.email $X$Y$Z$DOM
-git config --global user.name "Chris Gibson"
+echo -n "Please enter your name for git configuration: "
+read name
+
+git config --global user.email $email
+git config --global user.name $name
 
 if [ -e ~/.ssh/id_rsa.pub ]; then
 	echo SSH key already exists
