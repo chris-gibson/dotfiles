@@ -152,7 +152,8 @@ augroup END
 
 :map <leader><space> @a
 " Set color scheme
-colorscheme atom-dark-256
+colorscheme lucius
+LuciusBlackHighContrast
 
 
 " Syntastic settings
