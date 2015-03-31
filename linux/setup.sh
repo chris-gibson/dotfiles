@@ -2,7 +2,7 @@
 
 sudo apt-get install git awesome terminator
 
-sudo cp -r /etc/xdg/awesome ~/.config
+sudo cp -rv awesome/ ~/.config
 
 #adding emial in variables to keep any scraping from grabbing this
 X="chris."
