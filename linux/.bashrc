@@ -107,7 +107,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-PATH="$HOME/opt/node-v0.10.33/bin:$PATH"
+PATH="$HOME/opt/nodejs/bin:$PATH"
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
