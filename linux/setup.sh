@@ -17,8 +17,7 @@ git config --global user.name $name
 if [ -e ~/.ssh/id_rsa.pub ]; then
 	echo SSH key already exists
 else
-	#ssh-keygen -t rsa -C $X$Y$Z$DOM
-	echo SSH KEY NO EXIST
+	ssh-keygen -t rsa -C $email
 fi
 
 echo Add this key to github settings
