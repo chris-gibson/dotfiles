@@ -298,6 +298,5 @@ noremap <leader>s :VimShellPop<cr>
 " NERDCommenter change
 noremap <leader>c :NERDComToggleComment<cr>
 
-" Stop fucking clobbering my buffer motherfuckers
-noremap y "0y
-noremap p "0p
+set splitright
+set splitbelow
