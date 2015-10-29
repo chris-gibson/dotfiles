@@ -94,10 +94,6 @@ map <down> <C-W>-
 map <left> <C-W><
 map <right> <C-W>>
 
-" Move up and down faster
-:map <S-J> j5j
-:map <S-K> k5k
-
 " set up a longer history
 set history=1000
 set undolevels=1000
